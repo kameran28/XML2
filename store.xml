@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no" ?>
+<!-- Our to do list data -->
+<store>
+    <!-- Do I need a secure PDA? -->
+    <Item size="small" color="black" price="20" quantity="50">small black backpack
+    </Item>
+    <Item zise="medum" color="red" price="15" quantity="50">medum red backpack</Item>
+    <Item size="larg" color="blue" price="10" quantity="50">larg blue backpack</Item>
+</store>
