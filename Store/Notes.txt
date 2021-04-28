@@ -1,0 +1,107 @@
++======================================================================================================+
+Description
++======================================================================================================+
+
+store.xml
+    - Data Base representation
+    - Products list
+
+Product
+    - ID
+    - Name string 
+    - Price double
+    - Categories - [red, blue, green]
+    - Description - string
+    - Image - string (url)
+
+Tinyxml2 =>
+
+> Used to read from store.xml
+> Take use input and process the data
+> Write the updated info to store.xml
+
+Operations supported
+    - Create
+        - Create a product (pass name, price, .... and the code automatically creates a unique id)
+    - Read
+        - Display a product with its ID
+        - Check other kind of displays
+    - Update
+        - Product (pass id updated price -> update the price and write to store.xml)
+        - Check for ways to update categories
+    - Delete
+        - Product (pass id -> remove the product from the data and write to store.xml)
+
+
++======================================================================================================+
+Code 
++======================================================================================================+
+
+class Product {
+    int id;
+    string name;
+    double price;
+    vector<string> categories;
+    string description;
+    string url;
+};
+
+class Store {
+    public:
+        void create(Product p) {
+            // p -> xml convert
+            // write to store.xml
+        }
+
+        Product read(int id) {
+            // read from store.xml
+            // return the product with the id as the given id
+        }
+
+        void update(int id, double price) {
+            // read from store.xml
+            // update price
+            // write to store.xml
+        }
+
+        void delete(int id) {
+            // read from store.xml
+            // delete the product with given id
+            // write to store.xml
+        }
+};
+
+
++======================================================================================================+
+CLI
++======================================================================================================+
+
+To run
+
+./store
+    print - give some operations (Create, read, update, delete)
+
+./store add name="Pen" price="30.3" categories="red,blue,green" description="This is a pen" image="https://imgs.net/somerandompen"
+    add - product with given details in store
+
+./store add
+    print - error: no params passed so give some properties of the product
+    (TODO: if only some params passed - may be assume defaults)
+
+./store show
+    print - all the products
+
+./store show id="3424234"
+    print - only the product with given id
+
+./store show name="pen"
+    print - only the products with pen in their name
+
+./store edit id="3453453" price="12.34"
+    update - the properties of the product with the given id
+
+./store edit id="2523543"
+    remove - the xml of the product from store
+
+
++======================================================================================================+

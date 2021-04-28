@@ -1,0 +1,86 @@
+<products>
+    <product>
+        <id>1263</id>
+        <name>Apple</name>
+        <price>1</price>
+        <description>An apple a day keeps the doctor away</description>
+        <image_url>https://imgs.com/apple</image_url>
+    </product>
+    <product>
+        <id>1588</id>
+        <name>Backpack</name>
+        <price>20</price>
+        <description>Modern stylish backpacks</description>
+        <image_url>https://imgs.com/backpack</image_url>
+    </product>
+    <product>
+        <id>1728</id>
+        <name>Camera</name>
+        <price>500</price>
+        <description>Capture your moments in high resoultion</description>
+        <image_url>https://imgs.com/camera</image_url>
+    </product>
+    <product>
+        <id>1790</id>
+        <name>Drone</name>
+        <price>300</price>
+        <description>AI drones with advanced features</description>
+        <image_url>https://imgs.com/drone</image_url>
+    </product>
+    <product>
+        <id>1918</id>
+        <name>Small Eggs</name>
+        <price>2</price>
+        <description>Small grade organic egss 12 eggs per pack</description>
+        <image_url>https://imgs.com/small_eggs</image_url>
+    </product>
+    <product>
+        <id>1019</id>
+        <name>Large Eggs</name>
+        <price>4</price>
+        <description>Large grade organic egss 12 eggs per pack</description>
+        <image_url>https://imgs.com/large_eggs</image_url>
+    </product>
+    <product>
+        <id>1146</id>
+        <name>Brown Eggs</name>
+        <price>4</price>
+        <description>Brown egss 12 eggs per pack</description>
+        <image_url>https://imgs.com/brown_eggs</image_url>
+    </product>
+    <product>
+        <id>1192</id>
+        <name>Fan</name>
+        <price>80</price>
+        <description>Fan that creates winter season in your home</description>
+        <image_url>https://imgs.com/Fan</image_url>
+    </product>
+    <product>
+        <id>1241</id>
+        <name>Corona Virus</name>
+        <price>0</price>
+        <description>Free transfer</description>
+        <image_url>https://imgs.com/corona_virus</image_url>
+    </product>
+    <product>
+        <id>1819</id>
+        <name>Playstation</name>
+        <price>1000</price>
+        <description>PS5 Out of Stock</description>
+        <image_url>https://imgs.com/ps5</image_url>
+    </product>
+    <product>
+        <id>1779</id>
+        <name>Edit</name>
+        <price>10</price>
+        <description>You need to edit</description>
+        <image_url>https://imgs.com/remove</image_url>
+    </product>
+    <product>
+        <id>1184</id>
+        <name>Remove</name>
+        <price>10</price>
+        <description>This product is added just to show the remove function</description>
+        <image_url>https://imgs.com/remove</image_url>
+    </product>
+</products>
